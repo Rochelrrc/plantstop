@@ -114,3 +114,47 @@ nav ul li {
 .sobre img {
   max-width: 350px;
 }
+
+.mais-vendido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+
+}
+
+.title-section-mid {
+  display: flex;
+  justify-self: center;
+
+  width: 376px;
+  height: 69px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 69px;
+}
+
+.section-imgs {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.section-imgs img {
+  width: 203px;
+  height: 204px;
+}
+
+.section-imgs p {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 29px;
+}
